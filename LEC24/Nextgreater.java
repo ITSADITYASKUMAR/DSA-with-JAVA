@@ -35,7 +35,7 @@ public class Nextgreater {
 		for (int i =0; i< arr.length; i++)
 		{
 			int j = i+1;
-			for (int j =0; j < arr.length; j++)
+			for (; j < arr.length; j++)
 			{
 				if (arr[i] < arr[j])
 				{
